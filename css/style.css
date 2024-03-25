@@ -8,24 +8,25 @@
 body {
     margin: 0;
     padding: 0;
-    background: url(img/background.webp);
+    background-image: url(../img/background.webp);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .box {
     width: 450px;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(79, 100, 112, 0.8);
     padding: 40px;
     text-align: center;
     margin: auto;
     margin-top: 5%;
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: 'Century Gothic', sans-serif;
 }
 
 .box-img {
-    border-radius: 10%;
+    border-radius: 15%;
     width: 333.33px;
     height: 166.66px;
 }
@@ -46,6 +47,7 @@ body {
 
 .box p {
     text-align: center;
+    font-weight: normal;
 }
 
 ul {
